@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+}
+
+.sign-in{
+    background-color: black;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+}
+
+input{
+    padding: 20px;
+    width: 80%;
+    border-radius: 70px;
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 20px;
+    width: 80%;
+    border-radius: 50px;
+    background-color: rgb(49, 1, 131);
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(15, 0, 71);
+    letter-spacing: 5px;
+}
+
+@media (max-width:600px){
+    .sign-in{
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    input{
+        width: 85%;
+        padding: 15px;
+    }
+
+    button{
+        width: 85%;
+        padding: 15px;
+    }
+}
